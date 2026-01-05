@@ -14,7 +14,7 @@ print(df.describe())
 # Ensure 'Date' is set as an index for time series analysis
 df.set_index('Date', inplace=True)
 
-# Sales Trend Over Time (Improved Bar Graph)
+# Sales Trend Over Time 
 plt.figure(figsize=(14, 6))
 
 # Aggregate daily sales
@@ -95,4 +95,5 @@ plt.xlabel('Age Group')
 plt.ylabel('Product Category')
 plt.xticks(rotation=45)
 plt.tight_layout()
+
 plt.show()
